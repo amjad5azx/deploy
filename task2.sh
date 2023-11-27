@@ -8,6 +8,6 @@ echo 'CMD ["python", "manage.py", "runserver", "0.0.0.0:8001"]' >> Dockerfile
 
 sudo docker build . -t textutils
 
-sudo docker run -p 8001:8001 -d textutils
+sudo docker run -p 8001:8001 f4a25014498
 
 echo "Docker running."
